@@ -1,0 +1,64 @@
+body{
+    display:grid;
+    margin:0;
+    align-items: center;
+}
+.title{
+    display: flex;
+    background-color: #582086;
+    color:white;
+    width: 100vw;
+    padding-left: 10px;
+    font-family: Arial;
+}
+.main{
+    height: 90vh;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+#stats,#accuracy,#time_taken{
+    color:white;
+    font-family: Arial;
+    font-size: large;
+    font-weight: bold;
+    width: 750px;
+}
+#textarea{
+    width: 743px;
+    height: 300px;
+    border-radius: 15px;
+    border-color: black;
+    resize: none;
+    font-size: x-large;
+}
+#check{
+    display: none;
+}
+#para{
+    display: flex;
+    margin-top: 8px;
+    width:750px;
+    font-family: Arial;
+    text-align: center;
+    font-weight: bold;
+    color:#582086;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+#stats-box {
+    display: flex;
+    margin-top: 8px;
+    border-radius: 3px;
+    padding: 10px 0px 10px 20px;
+    width:730px;
+    font-family: Arial;
+    background-color: #582086;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
