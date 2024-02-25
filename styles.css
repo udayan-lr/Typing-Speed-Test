@@ -12,7 +12,7 @@ body{
     font-family: Arial;
 }
 .main{
-    height: 90vh;
+    height: 600px;
     display:grid;
     justify-content: center;
     align-items: center;
